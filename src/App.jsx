@@ -7,6 +7,7 @@ import Experience from './components/experience/Experience';
 import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Footer from './components/footer/Footer';
+import Testimonials from './components/testimonials/Testimonials';
 
 const App = () => {
   return (
@@ -14,10 +15,11 @@ const App = () => {
       <Header/>
       <Nav/>
       <About/>
-      <Contact/>
       <Experience/>
       <Services/>
       <Portfolio/>
+      <Testimonials/>
+      <Contact/>
       <Footer/>
     </div>
   )
