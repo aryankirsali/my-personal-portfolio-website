@@ -13,6 +13,7 @@
 
 .contact__option{
     background: var(--color-bg-variant);
+    color: white;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -22,6 +23,7 @@
 
 .contact__option:hover{
     background: transparent;
+    color: var(--color-white);
     border-color: var(--color-primary-variant);
 }
 

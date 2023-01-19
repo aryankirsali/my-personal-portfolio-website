@@ -11,12 +11,16 @@
 }
 
 :root{
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+        /*========== Colors ==========*/
+    /* Change favorite color */
+    --hue-color: 186; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --color-bg: hsl(var(--hue-color), 28%, 12%);
+    --color-bg-variant: hsl(var(--hue-color), 29%, 16%);
+    --color-primary: hsl(var(--hue-color), 69%, 61%);
+    --color-primary-variant: hsl(var(--hue-color), 29%, 23%);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
+    --color-services: hsl(var(--hue-color), 29%, 23%);
 
     --transition: all 400ms ease;
 
@@ -24,6 +28,17 @@
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
+
+.white-content {
+    --color-bg: hsl(var(--hue-color), 28%, 100%);
+    --color-bg-variant: hsl(var(--hue-color), 29%, 50%);
+    --color-primary: hsl(var(--hue-color), 69%, 60%);
+    --color-white: hsl(var(--hue-color), 8%, 45%);
+    --color-light: hsl(var(--hue-color), 8%, 45%);
+    --color-services: hsl(var(--hue-color), 29%, 35%);
+    
+  }
+
 html{
     scroll-behavior: smooth;
 }
@@ -36,7 +51,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png); 
+    /* background-image: url(../src/assets/bg-texture.png);  */
 }
 
 /*==================== GENERAL STYLES ====================*/
@@ -67,10 +82,6 @@ section > h2, section > h5{
 
 section > h2{
     color: var(--color-primary);
-}
-
-.text-light{
-    color: var(--color-light);
 }
 
 a{

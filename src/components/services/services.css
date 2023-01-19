@@ -13,8 +13,8 @@
 }
 
 .service:hover{
-    background: transparent;
-    background-color: var(--color-primary-variant);
+    background: var(--color-services);
+    /* background-color: var(--color-primary-variant); */
     cursor: default;
 }
 
@@ -33,6 +33,7 @@
 
 .service__list{
     padding: 2rem;
+    color: white;
 }
 
 .service__list li{
