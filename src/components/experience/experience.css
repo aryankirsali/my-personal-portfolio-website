@@ -10,17 +10,18 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    color: white;
 }
 
 .experience__container > div:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
+    color: var(--color-white);
     cursor: default;
 }
 .experience__container > div h3{
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
 }
 
 .experience__content{

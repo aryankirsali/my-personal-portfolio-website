@@ -5,6 +5,7 @@ header{
 }
 
 .header__container{
+    color: var(--color-white);
     text-align: center;
     height: 100%;
     position: relative;
